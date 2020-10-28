@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width initial-scale=5.0">  
+<title>Ejercicio 9</title>
+</head>
+	<p>indica si el número es par o impar</p>
+<body>
+<script type="text/javascript">
+	var numero = prompt("Introduce un número entero");
+
+	var resultado = parImpar(numero);
+	alert("El número "+numero+" es "+resultado);
+
+	function parImpar(numero) {
+	  if(numero % 2 == 0) {
+	    return "par";
+	  }
+	  else {
+	    return "impar";
+	  }
+	}
+</script>
+</body>
+</html>
